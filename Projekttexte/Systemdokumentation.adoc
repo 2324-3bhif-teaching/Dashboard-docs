@@ -1,0 +1,63 @@
+= Software Documentation
+
+== Inhaltsverzeichnis
+. Einführung
+. Systemarchitektur
+. Datenbankstruktur
+. Backend
+. Frontend
+. Schlussfolgerung
+
+== Einführung
+Das Race-Dashboard-Projekt ist ein System zur Verwaltung und Überwachung von Roboterrennen in Echtzeit. Es bietet eine Schnittstelle für Administratoren, um Rennen zu starten und zu stoppen, sowie eine Ansicht für Benutzer, um die aktuellen Rennzeiten und Ergebnisse zu sehen.
+
+=== Ziele
+Verwaltung von Roboterrennen in einer kontrollierten Umgebung.
+Echtzeit-Aktualisierung der Rennzeiten.
+Speicherung und Anzeige von Renn- und Teilnehmerdaten.
+
+
+== Systemarchitektur
+
+Die Systemarchitektur besteht aus einem Client-Server-Modell, das durch die folgenden Hauptkomponenten realisiert wird:
+
+* Frontend: Eine webbasierte Benutzeroberfläche, die mit HTML, CSS (Tailwind) und JavaScript erstellt wurde.
+* Backend: Ein Node.js-Server mit Express.js, der die API-Endpunkte bereitstellt.
+* Datenbank: Eine SQLite-Datenbank, die alle relevanten Daten zu Rennen, Teilnehmern und Rennergebnissen speichert.
+* WebSockets: Für die Echtzeit-Kommunikation zwischen Client und Server.
+
+== Datenbankstruktur
+* Race
+
+** race_id
+** date
+** race_time
+
+* Participant
+** participant_id
+** name
+
+* RaceParticipant
+** race_id
+** participant_id
+
+== Backend
+Das Backend ist in TypeScript geschrieben und nutzt Node.js sowie Express.js für die Server- und API-Logik. Es besteht aus mehreren Schichten:
+
+=== Datenbankverbindung
+Die Datenbankverbindung wird durch die DB.ts-Datei verwaltet, die die Tabellen für Rennen, Teilnehmer und deren Zuordnungen erstellt.
+
+=== Services
+Die Service-Schicht implementiert die Geschäftslogik für Rennen und Teilnehmer.
+
+=== Routes
+Die Routen definieren die API-Endpunkte für die Kommunikation mit dem Frontend.
+
+=== WebSockets
+WebSockets werden verwendet, um die Echtzeit-Aktualisierung der Renndaten zu ermöglichen.
+
+== Frontend
+Das Frontend ist eine webbasierte Benutzeroberfläche, die mit HTML, CSS (Tailwind) und JavaScript erstellt wurde.
+
+== Schlussfolgerung
+Das Race-Dashboard-Projekt bietet eine umfassende Lösung zur Verwaltung und Überwachung von Roboterrennen in Echtzeit.
