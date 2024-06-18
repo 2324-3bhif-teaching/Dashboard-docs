@@ -1,30 +1,31 @@
 = Pflichtenheft
 
 == Beschreibung der Ausgangslage
-- Die Ausgangssituation des Projektes ergibt sich aus der Herausforderung, dass Stationsleiter nicht in der Lage sind, alle Informationen zu allen Rennen in ihrem Gedächtnis zu behalten.
+- Die Ausgangssituation für das Projekt ergibt sich aus der Herausforderung, dass Stationsleiter nicht alle Informationen zu laufenden Rennen im Gedächtnis behalten können.
 
 == Ist-Zustand
-- Das Dashboard soll den Stationsleitern ermöglichen, schnell und einfach Informationen über die laufenden Rennen abzurufen.
-- Die vorhandenen Systemplattformen werden die Personalcomputer der Stationsleiter sein.
-- Das Dashboard wird live Informationen über eine Website streamen und den Stationsleitern ermöglichen, diese Informationen zu vergleichen.
+- Das Robodashboard soll es Stationsleitern ermöglichen, schnell und einfach Informationen über laufende Rennen abzurufen.
+- Als Plattform dienen die Personalcomputer der Stationsleiter.
+- Das Dashboard wird live über eine Website Informationen streamen und den Vergleich dieser Informationen ermöglichen.
+
 
 == Zielsetzung
-- Die Ziele vom Dashboard sind:
+- Die Ziele des Dashboards sind:
 * Bereitstellung einer qualitativ hochwertigen und schnellen Benutzererfahrung.
-* Entwicklung einer benutzerfreundlichen Benutzeroberfläche, die auch von unerfahrenen Benutzern intuitiv genutzt werden kann.
-* Gewährleistung einer zuverlässigen und funktionellen Arbeitsweise.
-* Vereinfachung der Informationsbeschaffung für die Stationsleiter.
+* Entwicklung einer benutzerfreundlichen Benutzeroberfläche, die intuitiv von allen Benutzern genutzt werden kann.
+* Gewährleistung einer zuverlässigen und funktionalen Arbeitsweise.
+* Vereinfachung der Informationsbeschaffung für Stationsleiter
 
 == Anforderungen
-- Anforderungen an die Applikationssoftware:
-* Entwicklung einer benutzerfreundlichen Benutzeroberfläche mit hoher Datensicherheit für alle Benutzer
-* Gewährleistung einer hohen Leistungsfähigkeit und Robustheit der Anwendung
-- Anforderungen an die Systemplattform:
-* Einrichtung einer Website mit klaren Fehlerkommunikationen und kontinuierlicher Verfügbarkeit.
-* Sicherstellung einer hohen Leistungsfähigkeit und Priorisierung der Datensicherheit
-- Anbieter bezogene Anforderungen
+- Applikationssoftware:
+* Entwicklung einer benutzerfreundlichen Oberfläche mit hoher Datensicherheit für alle Benutzer.
+* Gewährleistung hoher Leistungsfähigkeit und Robustheit der Anwendung.
+- Systemplattform:
+* Einrichtung einer Website mit klaren Fehlermeldungen und kontinuierlicher Verfügbarkeit.
+* Sicherstellung hoher Leistungsfähigkeit und Priorisierung der Datensicherheit.
+- Anbieterbezogene Anforderungen:
 * Garantie der Pünktlichkeit und Zuverlässigkeit des Projekts.
-* Aufrechterhaltung einer effektiven Projektorganisation und offener Kommunikation
+* Aufrechterhaltung einer effektiven Projektorganisation und offenen Kommunikation.
 
 == Mengengerüst
 - Die zu erwartenden Datenmengen sind:
@@ -42,6 +43,6 @@
 
 == Administratives
 - Das Projekt wird in einem GitHub-Repository unter der MIT-Lizenz verfügbar sein.
-- Der Budgetrahmen muss noch festgelegt werden und wird im weiteren Verlauf diskutiert.
+- Der Budgetrahmen wird im weiteren Verlauf festgelegt und diskutiert.
 - Bei Fragen zum Pflichtenheft stehen wir jederzeit zur Verfügung.
-- Die Termine werden während des Projektverlaufs transparent dargestellt und eingehalten.
+- Die Termine werden transparent dargestellt und während des Projektverlaufs eingehalten.
