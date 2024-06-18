@@ -11,30 +11,28 @@ Herbert Aitenbichler
 
 == Projektergebnis
 - Entwicklung und Implementierung einer professionellen Website, die eine effiziente Informationsbeschaffung für die Stationsmanager gewährleistet.
-- Messbare Ziele: Verbesserte Kontrolle über Renndaten und gesteigerte Ressourceneffizienz für die Stationsmanager.
+- Messbare Ziele: Verbesserte Kontrolle über Renndaten und gesteigerte Ressourceneffizienz.
 
 == Projektziele
 - Entwicklung einer vollständigen und funktionsfähigen Website zur Bereitstellung relevanter Rennergebnisse für die Stationsmanager.
 
 == Projektbeschreibung
-- Hauptaufgaben umfassen die Echtzeit-Aktualisierung von Rennergebnissen, die nahtlose Integration neuer Renndaten sowie die Analyse und Vergleich der Rennergebnisse.
+- Das Projekt umfasst die Echtzeit-Aktualisierung von Rennergebnissen, nahtlose Integration neuer Renndaten sowie Analyse- und Vergleichsfunktionen.
 - Folgende Daten müssen mindestens angezeigt werden:
-* Highscores der Spieler
+* Spieler-Highscores
 * Verbundene Geräte
-* Name des derzeitigen Fahrers
-* Länge der Spielzeit sowie Länge des Rennens
-* Vorherige Rennen
-- QoL Features
-* Sortiermöglichkeiten
-* Verschiedene Designs
+* Name des aktuellen Fahrers
+* Spielzeit und Renndauer
+* Historische Rennergebnisse
+* Zusätzlich sind Quality-of-Life-Features geplant wie Sortiermöglichkeiten und verschiedene Designs.
 
 == Meilensteine
-- Projektstart und Planung abgeschlossen
-- Mockup ist fertig
-- Prototypentwicklung abgeschlossen
-- Website-Design implementiert
-- Kernfunktionen implementiert
-- Integration und Tests abgeschlossen
+- Abschluss Projektstart und Planung
+- Fertigstellung des Mockups
+- Abschluss der Prototypentwicklung
+- Implementierung des Website-Designs
+- Implementierung der Kernfunktionen
+- Abschluss der Integration und Tests
 - Benutzerfreigabe
 
 ==== Projektstart
